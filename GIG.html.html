@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GIG</title>
+        <meta charset="UTF-8"/>
+        <link rel="icon" type="image/x-icon" href="./image.png"/>
+        <style>
+            * {
+                padding: 0%;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: black;
+                color: white;
+                margin-top: 0;
+            }
+
+            h1 {
+                font-weight: bold;
+                font-size: 100px;
+                color: aliceblue;
+            }
+
+            header {
+                padding: 30px;
+            }
+
+            header> p {
+                margin-top: 0%;
+                margin-bottom: 0%;
+                color: aliceblue;
+            }
+
+            .menu {
+                flex-direction: row;
+                display: flex;
+                width: 100%;
+                background-color: aliceblue;
+                padding-top: 5px; padding-bottom: 5px;
+                margin-bottom: 10px;
+            }
+
+            .menu *{
+                flex-basis: 100%;
+                text-align: center;
+                font-size: large;
+            }
+
+            a:hover {
+                background-color: black;
+                color: aliceblue;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .article {
+                text-align: center;
+                color: aliceblue;
+                font-size: xx-large;
+            }
+
+            .container {
+                flex-direction: column;
+                color: black;
+                background-color: black;
+                display: flex;
+                gap: 50px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5%; margin-bottom: 5%;
+            }
+
+            .plan {
+                background-color: #f2f2f2;
+                width: 40%;
+                font-size: xx-large;
+                height: 300px;
+            }
+
+            .plan-button {
+                padding: 3%;
+                margin-bottom: 10%;
+                font-weight: bold;
+                border-radius: 15%;
+                border: 3px solid black;
+            }
+
+            .planB {
+                font-weight: bold;
+                font-size: xx-large;
+            }
+
+            footer {
+                color: aliceblue;
+                font-size: large;
+            }
+
+            .button {
+                background-color: aliceblue;
+                border-radius: 20%;
+                display: flexbox;
+                flex-direction: row;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>GIG Tech</h1>
+            <p>Build your future in web development- Learn from experts, create with passion</p>
+        </header>
+
+        <div class="menu">
+            <div><a href="">HOME</a></div>
+            <div><a href="">ABOUT</a></div>
+            <div><a href="">SERVICES</a></div>
+            <div><a href="">FAQ</a></div>
+            <div><a href="">CONTACT</a></div>  
+        </div>
+
+        <picture>
+            <img src="./images (6).jpeg" width="100%" height="500px" alt="GIG Class Room"/>
+        </picture><br>
+
+        <div class="article">
+             <p>Welcome to GIG, your gateway to a succesful career in web development. Our school is dedicated to providing hands-on training and mentorship to help you become a skilled web developer.</p>
+             <p>With our expert instructors, you will learn the latest technologies and trends in web develoment. From front-end design to back-end development, our programs cover everything you need to succeed in this exciting field.</p>
+             <h4>What sets us apart:</h4>
+             <ul>
+                <li>Small class sizes for personalized attention</li>
+                <li>Project-based learning for real-world experience</li>
+                <li>Industry connections for job opportunities</li>
+             </ul><br>
+             <strong>Take the first step towards your dream career</strong> <br>
+             <hr>
+        </div> 
+        
+        <div class="container">
+            <div class="plan">
+                <ul>
+                    <li class="planB">Basic Plan:</li>
+                    <li>$9.99/month</li>
+                    <li>0 month mentorship</li>
+                </ul>
+                <button class="plan-button">Sign Up</a>
+            </div> 
+
+            <div class="plan">
+                <ul>
+                    <li class="planB">Standard Plan:</li>
+                    <li>$19.99/month</li>
+                    <li>3 months mentorship </li>
+                </ul>
+                <button class="plan-button">Sign Up</a>
+            </div>
+
+            <div class="plan">
+                <ul>
+                    <li class="planB">Premium Plan:</li>
+                    <li>$49.99/month</li>
+                    <li>6 months mentorship</li>
+                </ul>
+                <button class="plan-button">Sign Up</a>
+            </div>
+        </div><br>
+
+        <hr>
+
+        <footer>
+            <p>GIG Tech School</p>
+            <p>8796 Main Street, Suite 123, Mainland, NM</p>
+            <button class="button">LEARN MORE ABOUT US</button>
+            <button class="button">CONTACT US TODAY</button>
+        </footer>
+    </body>
+</html>
